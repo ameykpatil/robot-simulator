@@ -1,0 +1,24 @@
+{
+  "name": "robot-simulator",
+  "version": "1.0.0",
+  "description": "This is a programatic simulator for a robot moving on a surface of a table",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ameykpatil/robot-simulator.git"
+  },
+  "author": "Amey Patil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ameykpatil/robot-simulator/issues"
+  },
+  "homepage": "https://github.com/ameykpatil/robot-simulator#readme",
+  "dependencies": {
+    "hapi": "^17.5.2",
+    "joi": "^13.4.0",
+    "lodash": "^4.17.10"
+  }
+}
