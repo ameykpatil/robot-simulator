@@ -120,7 +120,7 @@ You can pass commands in a structured way too
 ```
 curl -X POST http://localhost:4889/simulator/v1/commands -H 'Content-Type: application/json' -d '{
 	"commands": [
-    { "command": "PLACE", "x": 4, "y": 0, "f": "NORTH"},
+	  { "command": "PLACE", "x": 4, "y": 0, "f": "NORTH"},
 	  { "command": "MOVE" },
 	  { "command": "REPORT" }
   ]
